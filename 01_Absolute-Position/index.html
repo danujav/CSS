@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positions</title>
+    <link href="asserts/css/normalize.css" rel="stylesheet">
+    <style>
+        section:nth-child(1){
+            background: red;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 0;
+        }
+        section:nth-child(2){
+            background: green;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            right: 0;
+        }
+        section:nth-child(3){
+            background: yellow;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        section:nth-child(4){
+            background: deeppink;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        section:nth-child(1) > div:nth-child(1){
+            width: 25%;
+            height: 45%;
+            background: white;
+            border-bottom-right-radius: 100%;
+        }
+        section:nth-child(1) > div:nth-child(2){
+            width: 145px;
+            height: 145px;
+            background: white;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 100%;
+        }
+        section:nth-child(1) > div:nth-child(2) > div {
+            width: 75px;
+            height: 75px;
+            background: red;
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        section:nth-child(2) > div:nth-child(1){
+            width: 25%;
+            height: 45%;
+            background: white;
+            border-bottom-left-radius: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        section:nth-child(2) > div:nth-child(2){
+            width: 145px;
+            height: 145px;
+            border-radius: 100%;
+            background: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        section:nth-child(2) > div:nth-child(2) > div{
+            width: 75px;
+            height: 75px;
+            background: red;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        section:nth-child(3) > div:nth-child(1){
+            width: 25%;
+            height: 45%;
+            background: white;
+            border-top-right-radius: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        section:nth-child(3) > div:nth-child(2){
+            width: 145px;
+            height: 145px;
+            border-radius: 100%;
+            background: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        section:nth-child(3) > div:nth-child(2) > div{
+            width: 74px;
+            height: 75px;
+            background: red;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        section:nth-child(4) > div:nth-child(1){
+            width: 25%;
+            height: 45%;
+            background: white;
+            border-top-left-radius: 100%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        section:nth-child(4) > div:nth-child(2){
+            width: 145px;
+            height: 145px;
+            border-radius: 100%;
+            background: white;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        section:nth-child(4) > div:nth-child(2) > div{
+            width: 75px;
+            height: 75px;
+            background: red;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+
+        div:nth-child(5){
+            background: white;
+            border-bottom-left-radius: 120px;
+            border-bottom-right-radius: 120px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            width: 193px;
+            height: 95px;
+            margin: auto;
+        }
+        div:nth-child(6){
+            background: white;
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            width: 193px;
+            height: 95px;
+            margin: auto;
+        }
+
+        div:nth-child(7){
+            width: 130px;
+            height: 130px;
+            background: white;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        div:nth-child(7) > nav{
+            background: red;
+            position: absolute;
+            width: 70%;
+            height: 70%;
+            border-radius: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div></div>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div></div>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div></div>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <section>
+        <div></div>
+        <div>
+            <div></div>
+        </div>
+    </section>
+    <div></div>
+    <div></div>
+    <div>
+        <nav></nav>
+    </div>
+</body>
+</html>
